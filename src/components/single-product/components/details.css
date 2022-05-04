@@ -1,0 +1,143 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: 200px 100px;
+  gap: 15px;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.main {
+  grid-column: 1 / 4;
+  width: 100%;
+  background: #000;
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+
+}
+.main img {
+  background: #000;
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.t-one {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 15px;
+  height: 90px;
+  background: #000;
+  object-fit: cover;
+  width: 100%;
+
+}
+.t-one img{
+  height: 90px;
+  background: #000;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+
+.t-two {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 15px;
+  height: 90px;
+  background: #000;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.t-two img{
+  height: 90px;
+  background: #000;
+  object-fit: cover;
+  width: 100%;
+
+}
+.t-three {
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 15px;
+  height: 90px;
+  background: #000;
+  object-fit: cover;
+  width: 100%;
+
+}
+.t-three img{
+  height: 90px;
+  background: #000;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.add_to_cart.clicked {
+  animation: click 300ms;
+}
+
+@keyframes click {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.96);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  /* .woocommerce .mf-product-details {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  
+  
+
+  .single.row {
+    flex-direction: column-reverse !important;
+  }
+
+  .woocommerce div.product-image {
+    width: 100% !important;
+    float: none;
+    /* padding-right: 15px; */
+  }
+}
+
+@media (max-width: 991px) {
+    .woocommerce .mf-product-details {
+        display: flex;
+        flex-direction: column !important;
+      }
+    .woocommerce div.product-image {
+        width: 100% !important;
+        float: none;
+        padding-right: 15px; 
+      }
+}
+
+
+.woocommerce ul.products li.product a img {
+    height: 250px;
+    width: 100%;
+}
+/* 
+.woocommerce .widget_product_search button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  z-index: 999;
+  background-color: transparent;
+} */

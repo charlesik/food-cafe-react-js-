@@ -1,0 +1,111 @@
+.main-nav {
+  float: none !important;
+}
+
+.header2.header-main {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.header-sticky .site-header.scrolled {
+  -webkit-transition: 0.3s ease-out !important;
+  -moz-transition: 0.3s ease-out !important;
+  -ms-transition: 0.3s ease-out !important;
+  -o-transition: 0.3s ease-out !important;
+  transition: 0.3s ease-out !important;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  /* z-index: 99; */
+}
+
+.sticky-wrapper.is-sticky {
+  -webkit-transition: 0.3s ease-out !important;
+  -moz-transition: 0.3s ease-out !important;
+  -ms-transition: 0.3s ease-out !important;
+  -o-transition: 0.3s ease-out !important;
+  transition: 0.3s ease-out !important;
+}
+.sticky-wrapper {
+  -webkit-transition: 0.3s ease-out !important;
+  -moz-transition: 0.3s ease-out !important;
+  -ms-transition: 0.3s ease-out !important;
+  -o-transition: 0.3s ease-out !important;
+  transition: 0.3s ease-out !important;
+}
+
+.header-sticky .site-header.minimized {
+  transition: all 400ms ease !important;
+}
+
+.header-sticky .site-header.minimized {
+  z-index: 99 !important;
+}
+
+.header-sticky .site-header,
+.header-sticky .header-auth {
+  z-index: 9999 !important;
+  -webkit-transition: all 1s !important;
+  -moz-transition: all 1s ease !important;
+  -ms-transition: all 1s ease !important;
+  -o-transition: all 1s ease !important;
+  transition: all 1s ease !important;
+  /* top: -57px; */
+  transition: all 1s ease;
+}
+
+.header-sticky .header-auth {
+  background: #fff;
+}
+
+.site-extra-text .header-contact i {
+  color: #252525 !important;
+}
+
+@media (max-width: 1199px){
+	.header-sticky .sticky-wrapper {
+		height: 80px !important;
+	  }
+  }
+
+
+@media only screen and (max-width: 991px) {
+  .header-v5 .header-main .site-contact {
+    padding-bottom: 25px;
+  }
+
+  .header-sticky .sticky-wrapper {
+    height: 80px !important ;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+	.header-sticky .sticky-wrapper {
+	  height: 70px !important;
+	}
+  }
+
+@media only screen and (max-width: 568px) {
+	.header-sticky .site-header.scrolled {
+	  height: 70px !important;
+	  top: 0;
+	}
+  
+	.header-sticky .site-header.scrolled .site-contact {
+	  padding-top: 20px !important;
+	}
+  
+  
+	.header-sticky .sticky-wrapper {
+	  height: 70px !important;
+	}
+  }
+
+.mf-btn.cst-btn {
+  background-color: #252525 !important;
+  color: #ffffff;
+}
+.mf-btn.cst-btn:hover,
+.mf-btn.cst-btn:active,
+.mf-btn.cst-btn:focus {
+  /* background-color: #252525 !important; */
+  color: #ffffff;
+}

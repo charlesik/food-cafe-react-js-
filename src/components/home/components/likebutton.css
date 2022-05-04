@@ -1,0 +1,131 @@
+.like-button-wrapper.btn{
+    box-shadow: 0 0 17px 0 rgb(130 122 122 / 10%);
+    /* background: #dddada; */
+    background: #fff;
+}
+.like-button-wrapper.btn.liked{
+    background: #212529;
+}
+
+.like-button-wrapper.btn i{
+    color: #beb2b2;
+    transition: .3s;
+    /* border: 1px #000; */
+}
+
+.like-button-wrapper.btn:hover i{
+    /* color: red; */
+    transition: .3s ease ;
+    /* border: 1px #000; */
+}
+
+.like-button-wrapper.btn.liked i{
+    color: red;
+}
+.like-button-wrapper.btn.liked {
+    background: #fff;
+}
+
+.suffix{
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    transform: translateX(15px);
+}
+
+.suffix.liked{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.like-button-wrapper.clicked{
+    animation: click 300ms;
+}
+
+@keyframes click{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.96);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+.particles{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.particles .particle-rotate{
+    position: absolute;
+    
+}
+.particle-rotate:nth-child(1){
+    right: 0;
+    top: 50%;
+}
+.particle-rotate:nth-child(2){
+    right: 0;
+    bottom: 0;
+}
+.particle-rotate:nth-child(3){
+    right: 33%;
+    bottom: 0;
+}
+.particle-rotate:nth-child(4){
+    right: 66%;
+    bottom: 0;
+}
+.particle-rotate:nth-child(5){
+    left: 0;
+    bottom: 0;
+}
+.particle-rotate:nth-child(6){
+    left: 0;
+    bottom: 50%;
+}
+.particle-rotate:nth-child(7){
+    left: 0;
+    top: 50%;
+}
+.particle-rotate:nth-child(8){
+    left: 33%;
+    top: 0;
+}
+.particle-rotate:nth-child(9){
+    left: 66%;
+    top: 0;
+}
+.particle-rotate:nth-child(10){
+    right: 0;
+    top: 0;
+}
+
+.particles .particle-rotate .particle-tick{
+    position: absolute;
+    z-index: -1;
+    width: 10px;
+    height: 1px;
+    background-color: red;
+    animation: boom 500ms;
+    transform: translateX(-25px);
+    
+}
+
+@keyframes boom {
+    0% {
+        transform: translateX(-25px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+}

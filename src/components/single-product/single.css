@@ -1,0 +1,12 @@
+.site-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 578px) {
+    .woocommerce div.product #reviews #review_form .comment-form .comment-form-author, .woocommerce div.product #reviews #review_form .comment-form .comment-form-email {
+    width: 100% !important;
+  }
+}
+
+

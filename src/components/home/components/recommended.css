@@ -1,0 +1,110 @@
+.recommended .item .kt-widget5__title {
+  color: #393939;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.recommended .item .kt-widget5__price {
+  margin: 0;
+  padding: 0.3rem 0;
+  /* font-size: 1.2rem; */
+  font-weight: 400;
+  color: #000;
+}
+
+.recommended .btn {
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+/* 
+                .recommended .reco-img:before{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: #000;
+                opacity: 0.7;
+                transition: 0.5s;
+                z-index: 9;
+            }     
+            */
+
+.recommended .card {
+  position: relative;
+  overflow: hidden;
+  background-color: #999999;
+  border: none;
+  /* opacity: 0.6; */
+}
+
+.recommended .order {
+  width: 190px;
+  margin-left: 10px;
+}
+.recommended .owl-nav .owl-prev,
+.recommended .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  /* width: calc(var(--swiper-navigation-size) / 44 * 27); */
+  /* height: var(--swiper-navigation-size); */
+  /* margin-top: calc(0px - (var(--swiper-navigation-size) / 2)); */
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
+}
+
+.recommended .owl-nav .owl-next span,
+.recommended .owl-nav .owl-prev span {
+  font-size: 18px;
+}
+.recommended .owl-nav .owl-prev {
+  left: 0px;
+  transition: left 300ms ease-out;
+}
+.recommended .owl-nav .owl-next {
+  right: 0px;
+  transition: right 300ms ease-out;
+}
+
+.recommended .owl-nav .owl-prev,
+.recommended .owl-nav .owl-next {
+  top: 40%;
+  margin-top: 0;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+  border: solid 1px #d0d0d0;
+  border-radius: 2px solid #333;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 17px 0 rgb(130 122 122 / 20%); */
+}
+
+.owl-carousel .owl-next:focus,
+.owl-carousel .owl-prev:focus {
+  outline: none;
+  border: 0;
+}
+.recommended .owl-carousel .owl-nav button.owl-prev:focus span,
+.recommended .owl-carousel .owl-nav button.owl-next:focus-visible span,
+.recommended .owl-carousel button.owl-dot:focus {
+  outline: none;
+  border: 0;
+}
+
+.recommended .item .media img {
+  width: 48px;
+  height: 48px;
+}
+
+.recommended .item button:focus {
+  outline: none;
+  box-shadow: none;
+}

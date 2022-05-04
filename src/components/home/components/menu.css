@@ -1,0 +1,36 @@
+.mf-latest-post .item .kt-widget5__pic{
+    position: relative;
+    overflow: hidden;
+}
+
+.mf-latest-post .item .kt-widget5__pic .menu-img-sty{
+    width: 100% !important;
+    height: 200px;
+}
+.mf-latest-post .item .kt-widget5__pic{
+    object-fit: cover;
+}
+.mf-latest-post .item h4 a{
+   color: #393939
+}
+
+/* .item:hover .card img{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+} */
+
+.mf-latest-post .item .kt-widget5__pic:hover .cat-img-loop {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+.mf-latest-post-header{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.mf-latest-post-header .mf-btn-2:hover {
+    color: #fff;
+    background: #121d2f;
+}
+

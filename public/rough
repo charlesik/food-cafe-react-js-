@@ -1,0 +1,1173 @@
+import React, { Component } from 'react'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css'
+import 'owl.carousel/dist/assets/owl.theme.default.css'
+
+export default class Recommended extends Component{
+    render(){
+        return(
+            <div>
+                <section className="bg-white">
+                    <div className="container">
+                        <div className="row d-flex align-items-center text-center justify-content-center">
+                            <div className="col-12 mb-4 pb-4">
+                                <h2>Reviews From Customers</h2>
+                            </div>
+                        </div>
+                        <OwlCarousel 
+                        items={4} 
+                        className="owl-theme testimonial px-1 px-lg-5" 
+                        loop 
+                        nav 
+                        margin={10} 
+                        autoPlay={true}
+                        smartSpeed= {800}
+                        autoplaySpeed= {2000}
+                        navSpeed= {1000}
+                        paginationSpeed= {1000}
+                        slideSpeed={1000}
+                        dots={false}>
+
+                        {/* <div className="testimonial owl-carousel owl-theme px-1 px-lg-5 "> */}
+                            <div className="item p-3">
+                                <div className="card h-100">
+                                    <div className="card-body ">
+                                        <p className="mb-4">
+                                            Create an account and start enjoying our service fetbntrny 
+                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                        </p>
+                                        <div className="media">
+                                        
+                                            <img  className="rounded-circle mr-2 header-profile-user img-fluid" src="img/users/user4.jpg"  />
+
+                                        
+                                            <div className="media-body ">
+                                            <p className="mb-1 h6">
+                                                    Testimonial 1
+                                            </p>
+                                                <span className="text-muted">
+                                                    Testimonial 1
+                                                </span> 
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>                      
+                            </div>
+
+                            <div className="item p-3">
+
+                                <div className="card h-100">
+                                    <div className="card-body ">
+                                        <p className="mb-4">
+                                            Create an account and start enjoying our service fetbntrny 
+                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                        </p>
+
+                                        <div className="media">
+                                        
+                                            <img  className="rounded-circle mr-2 header-profile-user img-fluid" src="img/users/avatar-4.jpg"  />
+
+                                        
+                                            <div className="media-body ">
+                                            <p className="mb-1 h6">
+                                                    Testimonial 2
+                                            </p>
+                                                <span className="text-muted">
+                                                    Testimonial 2
+                                                </span> 
+                                            </div>
+                                        </div>
+
+
+                                    {/* <div className="d-flex d-inline-block">
+                                        <div>
+                                            <img  className="rounded-circle header-profile-user img-fluid"   />
+
+                                        </div>
+                                            <div className="ml-2">
+                                                <p className="mb-1 h6">
+                                                    
+                                                </p>
+                                                <span className="text-muted">
+                                                    Testimonial 2
+                                                </span> 
+                                            </div>
+                                        </div>  */}
+
+
+                                    </div>
+                                </div>                         
+                            </div>
+
+
+                            <div className="item p-3">
+                                <div className="card h-100">
+                                    <div className="card-body ">
+                                        <p className="mb-4">
+                                            Create an account and start enjoying our service fetbntrny 
+                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                        </p>
+                                        <div className="media">
+                                        
+                                            <img  className="d-flex mr-2 rounded-circle header-profile-user img-fluid" src="img/users/avatar-3.jpg"/>
+
+                                        
+                                            <div className="media-body">
+                                                <p className="mb-1 h6">
+                                                    Testimonial 3
+                                                </p>
+                                                <span className="text-muted">
+                                                    Testimonial 3
+                                                </span> 
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>                    
+                            </div>
+                            <div className="item p-3">
+                                <div className="card h-100">
+                                    <div className="card-body ">
+                                        <p className="mb-4">
+                                            Create an account and start enjoying our service fetbntrny 
+                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                        </p>
+
+                                        <div className="media">
+                                        
+                                            <img  className="d-flex mr-2 rounded-circle header-profile-user img-fluid" src="img/users/100_14.jpg"/>
+
+                                        
+                                            <div className="media-body">
+                                                <p className="mb-1 h6">
+                                                    Testimonial 4
+                                                </p>
+                                                <span className="text-muted">
+                                                    Testimonial 4
+                                                </span> 
+                                            </div>
+                                        </div>
+
+                                    
+
+
+                                    </div>
+                                </div>                          
+                                {/* <div className="card h-100 text-center">
+                                    <div className="card-body ">
+                                        <h4>
+                                            Testimonial 4
+                                        </h4>
+                                        <p className="mb-4">
+                                            Create an account and start enjoying our service
+                                        </p>
+                                    </div>
+                                </div>                      */}
+                            </div>
+                            <div className="item p-3">
+                                <div className="card h-100">
+                                    <div className="card-body ">
+                                        <p className="mb-4">
+                                            Create an account and start enjoying our service fetbntrny 
+                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                        </p>
+
+                                        <div className="media">
+                                        
+                                            <img  className="d-flex mr-2 rounded-circle header-profile-user img-fluid" src="img/users/avatar-2.jpg"/>
+
+                                        
+                                            <div className="media-body">
+                                                <p className="mb-1 h6">
+                                                    Testimonial 5
+                                                </p>
+                                                <span className="text-muted">
+                                                    Testimonial 5
+                                                </span> 
+                                            </div>
+                                        </div>
+
+                                    
+
+
+                                    </div>
+                                </div>                    
+                            </div>    
+                        {/* </div> */}
+                    </OwlCarousel>
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                </section>
+            </div>
+        )
+    }
+}
+
+
+
+<section>
+                    <div className="container text-center">
+                        <OwlCarousel items={4} className="owl-theme" loop nav margin={8} autoPlay={true}>
+                            <div>
+                               <p>hello1</p> 
+                            </div>
+                            <div>
+                                <p>hello2</p>
+                            </div>
+                            <div>
+                                <p>hello3</p>
+                            </div>
+                            <div>
+                               <p>hello4</p> 
+                            </div>
+                            <div>
+                                <p>hello5</p>
+                            </div>
+                            <div>
+                                <p>hello6</p>
+                            </div>
+                        </OwlCarousel>
+                    </div>
+                </section>
+
+
+
+                            <div className="col-lg-3 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                    <div className="card h-100">
+                                        <div className="card-body ">
+                                            <p className="mb-4">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                    <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                        <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                        <button className="btn btn-outline-dark order ">
+                                            Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                        </button>
+                                    
+                                    </div> 
+                                </div>
+                            </div>
+
+
+
+<div className="kt-portlet__body">
+                            <ul className="nav nav-tabs text-center d-flex align-items-center justify-content-center nav-tabs-line nav-tabs-line-2x nav-tabs-line-success mb-4" role="tablist">
+                                <li className="nav-item">
+                                <Link to="#kt_tabs_6_1" className="nav-link" data-toggle="tab"  role="tab">
+                                All
+                                </Link>                                    
+                                {/* <a className="nav-link active" data-toggle="tab" href="#kt_tabs_6_1" role="tab">All</a> */}
+                                </li>
+
+                                {/* <li className="nav-item">
+                                <Link to="#kt_tabs_6_2" className="nav-link" data-toggle="tab" role="tab">
+                                    Profile
+                                </Link>  
+                                </li> */}
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#kt_tabs_6_2" role="tab">Breakfast</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#kt_tabs_6_3" role="tab">Dinner</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#kt_tabs_6_4" role="tab">Special</a>
+                                </li>
+                            </ul>
+                            <div className="tab-content d-flex align-items-center justify-content-center">
+                                <div className="tab-pane active d-flex align-items-center justify-content-center" id="kt_tabs_6_1" role="tabpanel">
+                                    <div className="row">
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-lg-3">
+                                            <div className="item p-3">
+
+                                                <div className="card h-100">
+                                                    <div className="card-body ">
+                                                        <p className="mb-4">
+                                                            Create an account and start enjoying our service fetbntrny 
+                                                            bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                        </p>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                    <button className="btn btn-outline-dark order ">
+                                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                    </button>
+                                                
+                                                </div> 
+                                            </div>
+                                        </div>
+                                        
+
+                                    </div>
+                                     
+                                </div>
+                                <div className="tab-pane" id="kt_tabs_6_2" role="tabpanel">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </div>
+                                <div className="tab-pane" id="kt_tabs_6_3" role="tabpanel">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </div>
+                                <div className="tab-pane" id="kt_tabs_6_4" role="tabpanel">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </div>
+                            </div>
+                            <div className="kt-separator kt-separator--dashed"></div>
+                            
+                        </div>
+
+
+
+                        {/* <div className="Recommended owl-carousel owl-theme px-1 px-lg-5 "> */}
+                            <div className="item p-3">
+                                <div className="card h-100 text-center">
+                                    {/* <div className="card-body "> */}
+                                        {/* <div className="kt-widget5__pic"> */}
+                                            <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product19.jpg"  />
+                                        {/* </div> */}
+                                    {/* </div> */}
+
+                                    
+                                </div>  
+
+                                <div className="my-3 text-center">
+                                    <a className="kt-widget5__title " href="">
+                                    Portable basket of flowers
+                                    </a>
+
+                                    <p className="mt-2 kt-widget5__desc">
+                                        price
+                                    </p>
+                                </div>
+                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                    <button className="btn btn-outline-dark order ">
+                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                    </button>
+                                
+                                </div> 
+                            </div>    
+
+                            <div className="item p-3">
+                                <div className="card h-100 text-center">
+                                    <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product25.jpg"  />
+
+                                </div>
+                                <div className="my-3 text-center">
+                                    <a className="kt-widget5__title " href="">
+                                    Pair of Nike Boots
+                                    </a>
+
+                                    <p className="mt-2 kt-widget5__desc">
+                                        price
+                                    </p>
+                                </div>
+                               
+
+                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                    <button className="btn btn-outline-dark order ">
+                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                    </button>
+                                
+                                </div>
+                            </div>    
+                        
+
+                            <div className="item p-3">
+                                <div className="card h-100 text-center">
+                                    <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product16.jpg"  />
+
+                                </div>
+                                <div className="my-3 text-center">
+                                    <a className="kt-widget5__title " href="">
+                                    Pair of Headsets
+                                    </a>
+
+                                    <p className="mt-2 kt-widget5__desc">
+                                        price
+                                    </p>
+                                </div>
+                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                    <button className="btn btn-outline-dark order ">
+                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                    </button>
+                                
+                                </div>
+                            </div>    
+                        
+                            
+                            <div className="item p-3">
+                                <div className="card h-100 text-center">
+                                    <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product24.jpg"  />
+
+                                </div>
+                                <div className="my-3 text-center">
+                                    <a className="kt-widget5__title " href="">
+                                    Pair of Shoes
+                                    </a>
+
+                                    <p className="mt-2 kt-widget5__desc">
+                                        price
+                                    </p>
+                                </div>
+                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                    <button className="btn btn-outline-dark order ">
+                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                    </button>
+                                
+                                </div> 
+                            </div>    
+                            
+                            <div className="item p-3">
+                                <div className="card h-100 text-center">
+                                    <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product9.jpg"  />
+
+                                </div>  
+
+                                <div className="my-3 text-center">
+                                    <a className="kt-widget5__title " href="">
+                                    Bubble gum
+                                    </a>
+
+                                    <p className="mt-2 kt-widget5__desc">
+                                        price
+                                    </p>
+                                </div>
+
+                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                    <button className="btn btn-outline-dark order ">
+                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                    </button>
+                                
+                                </div> 
+                            </div>    
+
+                            <div className="item p-3">
+                                <div className="card h-100 text-center">
+                                    <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product7.jpg"  />
+
+                                </div>
+                                <div className="my-3 text-center">
+                                    <a className="kt-widget5__title " href="">
+                                    Strawberries
+                                    </a>
+
+                                    <p className="mt-2 kt-widget5__desc">
+                                        price
+                                    </p>
+                                </div>
+                                <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                    <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                    <button className="btn btn-outline-dark order ">
+                                        Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                    </button>
+                                
+                                </div> 
+                            </div>    
+                        
+                        {/* </div> */}
+
+
+
+
+
+
+                        <div className="col-lg-3">
+
+                                    <div className="item p-3">
+                                        <div className="card h-100 text-center">
+                                            <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product9.jpg"  />
+
+                                        </div>  
+
+                                        <div className="my-3 text-left">
+                                            <a className="kt-widget5__title " href="">
+                                            Bubble gum
+                                            </a>
+
+                                            <p className="mt-2 kt-widget5__desc">
+                                                price
+                                            </p>
+                                        </div>
+
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>    
+
+                                </div>
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+                                        <div className="card h-100 text-center">
+                                            <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product9.jpg"  />
+
+                                        </div>  
+
+                                        <div className="my-3 text-left">
+                                            <a className="kt-widget5__title " href="">
+                                            Bubble gum
+                                            </a>
+
+                                            <p className="mt-2 kt-widget5__desc">
+                                                price
+                                            </p>
+                                        </div>
+
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>    
+
+                                </div>
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+                                        <div className="card h-100 text-center">
+                                            <img  className="mr-2 card-img-top img-fluid img-loop" src="assets/products/product9.jpg"  />
+
+                                        </div>  
+
+                                        <div className="my-3 text-left">
+                                            <a className="kt-widget5__title " href="">
+                                            Bubble gum
+                                            </a>
+
+                                            <p className="mt-2 kt-widget5__desc">
+                                                price
+                                            </p>
+                                        </div>
+
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>    
+
+                                </div>
+                                
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+
+                                        <div className="card h-100">
+                                            <div className="card-body ">
+                                                <p className="mb-4">
+                                                    Create an account and start enjoying our service fetbntrny 
+                                                    bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                            {/* <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button> */}
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+
+                                        <div className="card h-100">
+                                            <div className="card-body ">
+                                                <p className="mb-4">
+                                                    Create an account and start enjoying our service fetbntrny 
+                                                    bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                            {/* <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button> */}
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+
+                                        <div className="card h-100">
+                                            <div className="card-body ">
+                                                <p className="mb-4">
+                                                    Create an account and start enjoying our service fetbntrny 
+                                                    bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                            {/* <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button> */}
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+
+                                        <div className="card h-100">
+                                            <div className="card-body ">
+                                                <p className="mb-4">
+                                                    Create an account and start enjoying our service fetbntrny 
+                                                    bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                            {/* <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button> */}
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+
+                                        <div className="card h-100">
+                                            <div className="card-body ">
+                                                <p className="mb-4">
+                                                    Create an account and start enjoying our service fetbntrny 
+                                                    bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                            {/* <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button> */}
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-3">
+                                    <div className="item p-3">
+
+                                        <div className="card h-100">
+                                            <div className="card-body ">
+                                                <p className="mb-4">
+                                                    Create an account and start enjoying our service fetbntrny 
+                                                    bebebe ergeh th ethth th eheth ththr ehe heththehthth
+                                                </p>
+                                                
+                                            </div>
+                                        </div>
+                                        <div className=" d-flex justify-content-between align-items-center mt-3"> 
+                                            {/* <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button> */}
+
+                                            <button className="btn btn-outline-dark order ">
+                                                Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                            </button>
+                                        
+                                        </div> 
+                                    </div>
+                                </div>
+                                
+
+
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product20.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Cup of Coffee
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product13.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Acid Battery
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product3.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Blue Oranges
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product27.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Origami
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product25.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Pair of Nike Boots
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product23.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                A shoe
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product19.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Portable basket of flowers
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-4 col-sm-12">
+                                <div className="item p-3">
+
+                                <div className="media d-flex align-items-center justify-space-between">
+                                    <div className="kt-widget5__pic">
+                                        <img  className="mr-2 img-fluid cat-img-loop" src="assets/products/product14.jpg"  />
+                                    </div>
+                                    <div className="media-body">
+                                        {/* <div className="card-body "> */}
+                                            <a className="" href="">
+                                                Chick
+                                            </a>
+                                            <p className="kt-widget5__desc">
+                                                price
+                                            </p>
+                                            <p className="kt-widget5__desc">
+                                                Create an account and start enjoying our service fetbntrny 
+                                                bebebe ergeh th ethth th eheth ththr ehe heththehthth...
+                                            </p>
+                                            <div className=" d-flex justify-space-between align-items-center mt-3"> 
+                                                <button className="btn btn-outline-dark "><i className="fa fa-heart"></i></button>
+
+                                                <button className="btn btn-outline-dark order ">
+                                                    Order Now <i className="fas fa-cart-plus ml-1"></i>
+                                                </button>
+                                            
+                                            </div> 
+                                        {/* </div> */}
+
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+// &:hover{
+    //     background-color:#f8f4f4
+    // }
+
+
+
+
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
+import TabContent from 'react-bootstrap/TabContent'
+import TabPane from 'react-bootstrap/TabPane'
+// import Product from './product'
+import Product from '../../productlist/components/products'

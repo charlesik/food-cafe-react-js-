@@ -1,0 +1,20 @@
+.sidebar-search-form{
+    display:flex;
+    width: 100%;
+}
+
+.sidebar-search-form .input{
+    width: 80%;
+}
+
+.search-btn{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    /* border-radius: 10px; */
+    /* background: none; */
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+}
